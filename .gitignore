@@ -8,3 +8,6 @@ __pycache__/
 
 # macOS files
 .DS_Store
+
+# project draft
+/Final Project Draft.docx
