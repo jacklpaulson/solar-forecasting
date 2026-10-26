@@ -1,0 +1,234 @@
+[
+  {
+    "url": "https://huggingface.co/datasets/solarbench/SKIPPD/resolve/27d0e905ea2112979da6a03624b28c68b6e58aba/.gitattributes",
+    "path": "data/raw/solarbench/.gitattributes",
+    "expected_bytes": 2307,
+    "expected_sha256": null,
+    "revision": "27d0e905ea2112979da6a03624b28c68b6e58aba",
+    "bytes": 2307,
+    "sha256": "f4e703ea6e44bbebe53aceed2a89c11e40b88b7ae130c480c89860ab805ffc8f",
+    "seconds": 0.39,
+    "status": "verified"
+  },
+  {
+    "url": "https://huggingface.co/datasets/solarbench/SKIPPD/resolve/27d0e905ea2112979da6a03624b28c68b6e58aba/ERA5/test-00000-of-00001.parquet",
+    "path": "data/raw/solarbench/ERA5/test-00000-of-00001.parquet",
+    "expected_bytes": 138296,
+    "expected_sha256": "8966639a14c071ddbd2d7cb64145e0adb1ce38236bdc8d11e98eff24cabcdd98",
+    "revision": "27d0e905ea2112979da6a03624b28c68b6e58aba",
+    "bytes": 138296,
+    "sha256": "8966639a14c071ddbd2d7cb64145e0adb1ce38236bdc8d11e98eff24cabcdd98",
+    "seconds": 1.13,
+    "status": "verified"
+  },
+  {
+    "url": "https://huggingface.co/datasets/solarbench/SKIPPD/resolve/27d0e905ea2112979da6a03624b28c68b6e58aba/ERA5/train-00000-of-00001.parquet",
+    "path": "data/raw/solarbench/ERA5/train-00000-of-00001.parquet",
+    "expected_bytes": 2843638,
+    "expected_sha256": "e6f8657d26fc84b5c603822bfc89cafb486405f390021d676baf81b24e9811cf",
+    "revision": "27d0e905ea2112979da6a03624b28c68b6e58aba",
+    "bytes": 2843638,
+    "sha256": "e6f8657d26fc84b5c603822bfc89cafb486405f390021d676baf81b24e9811cf",
+    "seconds": 1.51,
+    "status": "verified"
+  },
+  {
+    "url": "https://huggingface.co/datasets/solarbench/SKIPPD/resolve/27d0e905ea2112979da6a03624b28c68b6e58aba/GFS/test-00000-of-00001.parquet",
+    "path": "data/raw/solarbench/GFS/test-00000-of-00001.parquet",
+    "expected_bytes": 968635,
+    "expected_sha256": "91d3f526a586c57182deaa43e7be92f77a157c4b4e21b4e92fbaba8458cdd312",
+    "revision": "27d0e905ea2112979da6a03624b28c68b6e58aba",
+    "bytes": 968635,
+    "sha256": "91d3f526a586c57182deaa43e7be92f77a157c4b4e21b4e92fbaba8458cdd312",
+    "seconds": 1.27,
+    "status": "verified"
+  },
+  {
+    "url": "https://huggingface.co/datasets/solarbench/SKIPPD/resolve/27d0e905ea2112979da6a03624b28c68b6e58aba/README.md",
+    "path": "data/raw/solarbench/README.md",
+    "expected_bytes": 12269,
+    "expected_sha256": null,
+    "revision": "27d0e905ea2112979da6a03624b28c68b6e58aba",
+    "bytes": 12269,
+    "sha256": "6c9b3641d124f03c569990264d11a978e1398306b768098b733159f2a85fdd3d",
+    "seconds": 0.41,
+    "status": "verified"
+  },
+  {
+    "url": "https://huggingface.co/datasets/solarbench/SKIPPD/resolve/27d0e905ea2112979da6a03624b28c68b6e58aba/GFS/train-00000-of-00001.parquet",
+    "path": "data/raw/solarbench/GFS/train-00000-of-00001.parquet",
+    "expected_bytes": 22557492,
+    "expected_sha256": "5f4624c0f0b9f32906815c79b7c2455560023d93cd4d9580965c23d19fff37df",
+    "revision": "27d0e905ea2112979da6a03624b28c68b6e58aba",
+    "bytes": 22557492,
+    "sha256": "5f4624c0f0b9f32906815c79b7c2455560023d93cd4d9580965c23d19fff37df",
+    "seconds": 1.73,
+    "status": "verified"
+  },
+  {
+    "url": "https://huggingface.co/datasets/solarbench/SKIPPD/resolve/27d0e905ea2112979da6a03624b28c68b6e58aba/ground/test-00000-of-00001.parquet",
+    "path": "data/raw/solarbench/ground/test-00000-of-00001.parquet",
+    "expected_bytes": 90299692,
+    "expected_sha256": "848fb838c533b185ee3d3b07c0739c742e4dfa5e4e9fe1ab1734b91478147982",
+    "revision": "27d0e905ea2112979da6a03624b28c68b6e58aba",
+    "bytes": 90299692,
+    "sha256": "848fb838c533b185ee3d3b07c0739c742e4dfa5e4e9fe1ab1734b91478147982",
+    "seconds": 4.06,
+    "status": "verified"
+  },
+  {
+    "url": "https://huggingface.co/datasets/solarbench/SKIPPD/resolve/27d0e905ea2112979da6a03624b28c68b6e58aba/ground/train-00001-of-00005.parquet",
+    "path": "data/raw/solarbench/ground/train-00001-of-00005.parquet",
+    "expected_bytes": 454925674,
+    "expected_sha256": "361a3b1bc33f0b41e8f390bbf525a608184e257fd4282f6ce0e4b315fa62d5d3",
+    "revision": "27d0e905ea2112979da6a03624b28c68b6e58aba",
+    "bytes": 454925674,
+    "sha256": "361a3b1bc33f0b41e8f390bbf525a608184e257fd4282f6ce0e4b315fa62d5d3",
+    "seconds": 19.67,
+    "status": "verified"
+  },
+  {
+    "url": "https://huggingface.co/datasets/solarbench/SKIPPD/resolve/27d0e905ea2112979da6a03624b28c68b6e58aba/ground/train-00003-of-00005.parquet",
+    "path": "data/raw/solarbench/ground/train-00003-of-00005.parquet",
+    "expected_bytes": 438715349,
+    "expected_sha256": "e132e4a265e15fabd8b7cecf48f3a0fde7a6a73307576453d222b5308001e342",
+    "revision": "27d0e905ea2112979da6a03624b28c68b6e58aba",
+    "bytes": 438715349,
+    "sha256": "e132e4a265e15fabd8b7cecf48f3a0fde7a6a73307576453d222b5308001e342",
+    "seconds": 17.17,
+    "status": "verified"
+  },
+  {
+    "url": "https://huggingface.co/datasets/solarbench/SKIPPD/resolve/27d0e905ea2112979da6a03624b28c68b6e58aba/ground/train-00000-of-00005.parquet",
+    "path": "data/raw/solarbench/ground/train-00000-of-00005.parquet",
+    "expected_bytes": 447992794,
+    "expected_sha256": "707ad9ea5db2dad9f83ead6cd99700fca9421b3635204dbc45acb8b062fe089e",
+    "revision": "27d0e905ea2112979da6a03624b28c68b6e58aba",
+    "bytes": 447992794,
+    "sha256": "707ad9ea5db2dad9f83ead6cd99700fca9421b3635204dbc45acb8b062fe089e",
+    "seconds": 59.58,
+    "status": "verified"
+  },
+  {
+    "url": "https://huggingface.co/datasets/solarbench/SKIPPD/resolve/27d0e905ea2112979da6a03624b28c68b6e58aba/ground_no_sky_img/test-00000-of-00001.parquet",
+    "path": "data/raw/solarbench/ground_no_sky_img/test-00000-of-00001.parquet",
+    "expected_bytes": 180755,
+    "expected_sha256": "b3bd6f721dd0ac35579cf32bcd942720ae366c363ee9dd4582f72a8868ce60a0",
+    "revision": "27d0e905ea2112979da6a03624b28c68b6e58aba",
+    "bytes": 180755,
+    "sha256": "b3bd6f721dd0ac35579cf32bcd942720ae366c363ee9dd4582f72a8868ce60a0",
+    "seconds": 3.58,
+    "status": "verified"
+  },
+  {
+    "url": "https://huggingface.co/datasets/solarbench/SKIPPD/resolve/27d0e905ea2112979da6a03624b28c68b6e58aba/ground_no_sky_img/train-00000-of-00001.parquet",
+    "path": "data/raw/solarbench/ground_no_sky_img/train-00000-of-00001.parquet",
+    "expected_bytes": 4479986,
+    "expected_sha256": "7133fc2f69e76f3df5fb68e450af03b1aa1040fe42e68bbad554b2b9066f4236",
+    "revision": "27d0e905ea2112979da6a03624b28c68b6e58aba",
+    "bytes": 4479986,
+    "sha256": "7133fc2f69e76f3df5fb68e450af03b1aa1040fe42e68bbad554b2b9066f4236",
+    "seconds": 5.5,
+    "status": "verified"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/yuhao-nie/Stanford-solar-forecasting-dataset/00dafc79d605401a4e18125b330609aece4f0977/README.md",
+    "path": "references/author_code/README.md",
+    "revision": "00dafc79d605401a4e18125b330609aece4f0977",
+    "bytes": 24459,
+    "sha256": "4d984a4c85de76f2425a73bec1e2562046ee7882272ff9524820275f3fda7787",
+    "seconds": 3.15,
+    "status": "verified"
+  },
+  {
+    "url": "https://huggingface.co/datasets/solarbench/SKIPPD/resolve/27d0e905ea2112979da6a03624b28c68b6e58aba/ground/train-00002-of-00005.parquet",
+    "path": "data/raw/solarbench/ground/train-00002-of-00005.parquet",
+    "expected_bytes": 470731142,
+    "expected_sha256": "9f580d117f701bd3d4c51215ccb0b4fe947d9318151eaf87fd3363493c18dd1c",
+    "revision": "27d0e905ea2112979da6a03624b28c68b6e58aba",
+    "bytes": 470731142,
+    "sha256": "9f580d117f701bd3d4c51215ccb0b4fe947d9318151eaf87fd3363493c18dd1c",
+    "seconds": 68.85,
+    "status": "verified"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/yuhao-nie/Stanford-solar-forecasting-dataset/00dafc79d605401a4e18125b330609aece4f0977/LICENSE",
+    "path": "references/author_code/LICENSE",
+    "revision": "00dafc79d605401a4e18125b330609aece4f0977",
+    "bytes": 1078,
+    "sha256": "c5241d08bc556e5204139d9b9e2cc8afdffa785c7e3e63bca36b518431d3a8f9",
+    "seconds": 3.07,
+    "status": "verified"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/yuhao-nie/Stanford-solar-forecasting-dataset/00dafc79d605401a4e18125b330609aece4f0977/requirements.txt",
+    "path": "references/author_code/requirements.txt",
+    "revision": "00dafc79d605401a4e18125b330609aece4f0977",
+    "bytes": 129,
+    "sha256": "a7193e559df3a051d7e75fd5f567bee568c7e34e580703a926367c81257d5020",
+    "seconds": 2.84,
+    "status": "verified"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/yuhao-nie/Stanford-solar-forecasting-dataset/00dafc79d605401a4e18125b330609aece4f0977/models/SUNSET_forecast.ipynb",
+    "path": "references/author_code/models/SUNSET_forecast.ipynb",
+    "revision": "00dafc79d605401a4e18125b330609aece4f0977",
+    "bytes": 588347,
+    "sha256": "4b17c8caf0100b6390ae204fa39b14515eed141ff7bcf5a4e03623f5365dfc7c",
+    "seconds": 3.4,
+    "status": "verified"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/yuhao-nie/Stanford-solar-forecasting-dataset/00dafc79d605401a4e18125b330609aece4f0977/models/SUNSET_nowcast.ipynb",
+    "path": "references/author_code/models/SUNSET_nowcast.ipynb",
+    "revision": "00dafc79d605401a4e18125b330609aece4f0977",
+    "bytes": 575787,
+    "sha256": "1aaa5951ca169b1b5dba6a08048a00488b6756c9f585ef30136d3506406174e3",
+    "seconds": 3.37,
+    "status": "verified"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/yuhao-nie/Stanford-solar-forecasting-dataset/00dafc79d605401a4e18125b330609aece4f0977/models/Relative_op_func.py",
+    "path": "references/author_code/models/Relative_op_func.py",
+    "revision": "00dafc79d605401a4e18125b330609aece4f0977",
+    "bytes": 4804,
+    "sha256": "5f1ec8f38bd960b078717f24d75b28b1f208aba425b4855c8edd5d04bf67b750",
+    "seconds": 2.43,
+    "status": "verified"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/yuhao-nie/Stanford-solar-forecasting-dataset/00dafc79d605401a4e18125b330609aece4f0977/data_processing/data_forecast.ipynb",
+    "path": "references/author_code/data_processing/data_forecast.ipynb",
+    "revision": "00dafc79d605401a4e18125b330609aece4f0977",
+    "status": "superseded_by_correct_path",
+    "error": "HTTP Error 404: Not Found",
+    "replacement": "references/author_code/data_processing/data_preprocess_forecast.ipynb"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2207.00913",
+    "path": "references/SKIPPD_dataset_paper.pdf",
+    "bytes": 4465950,
+    "sha256": "c76a976e28897bc141a451cdb7be8a4c53ade93096c99d09ab54f43ca4653b6b",
+    "seconds": 4.35,
+    "status": "verified"
+  },
+  {
+    "url": "https://huggingface.co/datasets/solarbench/SKIPPD/resolve/27d0e905ea2112979da6a03624b28c68b6e58aba/ground/train-00004-of-00005.parquet",
+    "path": "data/raw/solarbench/ground/train-00004-of-00005.parquet",
+    "expected_bytes": 419078890,
+    "expected_sha256": "670fe046c6d77593b19ff4dabaa647a109f14c54f5d88fca6b8e01f2d49e2dfe",
+    "revision": "27d0e905ea2112979da6a03624b28c68b6e58aba",
+    "bytes": 419078890,
+    "sha256": "670fe046c6d77593b19ff4dabaa647a109f14c54f5d88fca6b8e01f2d49e2dfe",
+    "seconds": 68.35,
+    "status": "verified"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/yuhao-nie/Stanford-solar-forecasting-dataset/00dafc79d605401a4e18125b330609aece4f0977/data_processing/data_preprocess_forecast.ipynb",
+    "path": "references/author_code/data_processing/data_preprocess_forecast.ipynb",
+    "revision": "00dafc79d605401a4e18125b330609aece4f0977",
+    "bytes": 748600,
+    "sha256": "f4cdf4adef063e125633094b91bd08d147096a827666d86df923286d8a0501d6",
+    "status": "verified"
+  }
+]

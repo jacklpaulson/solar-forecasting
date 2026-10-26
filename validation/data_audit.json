@@ -1,0 +1,69 @@
+{
+  "status": "data preparation verified",
+  "source_rows": 363375,
+  "image_checks": {
+    "decoded": 363375,
+    "invalid": 0,
+    "wrong_shape": 0
+  },
+  "image_and_standalone_label_checks": [
+    {
+      "split": "train",
+      "rows": 349372,
+      "labels_match_images": true
+    },
+    {
+      "split": "test",
+      "rows": 14003,
+      "labels_match_images": true
+    }
+  ],
+  "missing_timestamps": 0,
+  "missing_or_nonfinite_pv": 0,
+  "duplicate_timestamps": 0,
+  "source_pv_range_kw": [
+    1.9799999790848233e-05,
+    29.585369110107422
+  ],
+  "date_range": [
+    "2017-03-09",
+    "2019-10-26"
+  ],
+  "unique_days": 517,
+  "cross_split_exact_image_hashes": 0,
+  "excluded_frames_for_cross_split_image_duplicates": 0,
+  "split_summary": [
+    {
+      "split": "train",
+      "frames": 279072,
+      "days": 396,
+      "forecast_samples": 205735,
+      "pilot_samples": 15773
+    },
+    {
+      "split": "validation",
+      "frames": 70300,
+      "days": 101,
+      "forecast_samples": 52910,
+      "pilot_samples": 4296
+    },
+    {
+      "split": "test",
+      "frames": 14003,
+      "days": 20,
+      "forecast_samples": 11040,
+      "pilot_samples": 0
+    }
+  ],
+  "forecast_samples": 269685,
+  "input_images_per_example": 16,
+  "history_minutes": 15,
+  "horizon_minutes": 15,
+  "exact_60_second_sequence_checks": true,
+  "exact_900_second_target_checks": true,
+  "whole_day_split_disjointness": true,
+  "validation_persistence_mae_kw": 1.4748419523239136,
+  "validation_persistence_rmse_kw": 2.547783374786377,
+  "learned_models_trained": false,
+  "seconds": 180.25
+}

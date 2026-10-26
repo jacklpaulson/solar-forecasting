@@ -1,0 +1,420 @@
+{
+  "sha": "00dafc79d605401a4e18125b330609aece4f0977",
+  "url": "https://api.github.com/repos/yuhao-nie/Stanford-solar-forecasting-dataset/git/trees/00dafc79d605401a4e18125b330609aece4f0977",
+  "tree": [
+    {
+      "path": ".DS_Store",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5018a4d2ed9b74d5809fd666dada4864a2033881",
+      "size": 10244,
+      "url": "https://api.github.com/repos/yuhao-nie/Stanford-solar-forecasting-dataset/git/blobs/5018a4d2ed9b74d5809fd666dada4864a2033881"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "225ca30b27483c4fc6f903c6c761edfc6767cdd1",
+      "size": 1078,
+      "url": "https://api.github.com/repos/yuhao-nie/Stanford-solar-forecasting-dataset/git/blobs/225ca30b27483c4fc6f903c6c761edfc6767cdd1"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "780089962add09755478acca499f8618540e792c",
+      "size": 24459,
+      "url": "https://api.github.com/repos/yuhao-nie/Stanford-solar-forecasting-dataset/git/blobs/780089962add09755478acca499f8618540e792c"
+    },
+    {
+      "path": "data_processing",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f0f614b993ac9aad39accf0163d63827d38bf65d",
+      "url": "https://api.github.com/repos/yuhao-nie/Stanford-solar-forecasting-dataset/git/trees/f0f614b993ac9aad39accf0163d63827d38bf65d"
+    },
+    {
+      "path": "data_processing/.DS_Store",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c35d047236d3bab968cf8437982ee6c521517fb9",
+      "size": 6148,
+      "url": "https://api.github.com/repos/yuhao-nie/Stanford-solar-forecasting-dataset/git/blobs/c35d047236d3bab968cf8437982ee6c521517fb9"
+    },
+    {
+      "path": "data_processing/data_preprocess_PV.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "781ed12b61eeeacfd40c8765817cd2f91bbff528",
+      "size": 16364266,
+      "url": "https://api.github.com/repos/yuhao-nie/Stanford-solar-forecasting-dataset/git/blobs/781ed12b61eeeacfd40c8765817cd2f91bbff528"
+    },
+    {
+      "path": "data_processing/data_preprocess_forecast.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1fc01c7a63686dbd5973f4304bcf629436e778aa",
+      "size": 748600,
+      "url": "https://api.github.com/repos/yuhao-nie/Stanford-solar-forecasting-dataset/git/blobs/1fc01c7a63686dbd5973f4304bcf629436e778aa"
+    },
+    {
+      "path": "data_processing/data_preprocess_nowcast.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51aa55938dd803d4d81421b83958882b83b44e71",
+      "size": 7060588,
+      "url": "https://api.github.com/repos/yuhao-nie/Stanford-solar-forecasting-dataset/git/blobs/51aa55938dd803d4d81421b83958882b83b44e71"
+    },
+    {
+      "path": "data_processing/data_preprocess_snapshot_only.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7fe463b449d9e053cd4f6c25d09a7a30dfb0473e",
+      "size": 8873,
+      "url": "https://api.github.com/repos/yuhao-nie/Stanford-solar-forecasting-dataset/git/blobs/7fe463b449d9e053cd4f6c25d09a7a30dfb0473e"
+    },
+    {
+      "path": "models",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c85b232257bf61b0ccda65178a7cf3ae8399ce05",
+      "url": "https://api.github.com/repos/yuhao-nie/Stanford-solar-forecasting-dataset/git/trees/c85b232257bf61b0ccda65178a7cf3ae8399ce05"
+    },
+    {
+      "path": "models/Relative_op_func.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9652e7ecc8fba9cacccd8581811ba5d8fb115491",
+      "size": 4804,
+      "url": "https://api.github.com/repos/yuhao-nie/Stanford-solar-forecasting-dataset/git/blobs/9652e7ecc8fba9cacccd8581811ba5d8fb115491"
+    },
+    {
+      "path": "models/SUNSET_forecast.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ec46996c85244903d31c2a4bc04af56db41e22c",
+      "size": 588347,
+      "url": "https://api.github.com/repos/yuhao-nie/Stanford-solar-forecasting-dataset/git/blobs/6ec46996c85244903d31c2a4bc04af56db41e22c"
+    },
+    {
+      "path": "models/SUNSET_nowcast.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1664f2f9b2329e76de47c5d1aa3b9fc19cdb669",
+      "size": 575787,
+      "url": "https://api.github.com/repos/yuhao-nie/Stanford-solar-forecasting-dataset/git/blobs/d1664f2f9b2329e76de47c5d1aa3b9fc19cdb669"
+    },
+    {
+      "path": "requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "954852a44bff546355fd0302aca92c56607f7796",
+      "size": 129,
+      "url": "https://api.github.com/repos/yuhao-nie/Stanford-solar-forecasting-dataset/git/blobs/954852a44bff546355fd0302aca92c56607f7796"
+    },
+    {
+      "path": "sample_images",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9ea7e54b5d13af020c2af4f6b7e15ca7087b59b5",
+      "url": "https://api.github.com/repos/yuhao-nie/Stanford-solar-forecasting-dataset/git/trees/9ea7e54b5d13af020c2af4f6b7e15ca7087b59b5"
+    },
+    {
+      "path": "sample_images/.DS_Store",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5add9eda8a6eec0e6cc4d54c4c1e63765d8a0e59",
+      "size": 6148,
+      "url": "https://api.github.com/repos/yuhao-nie/Stanford-solar-forecasting-dataset/git/blobs/5add9eda8a6eec0e6cc4d54c4c1e63765d8a0e59"
+    },
+    {
+      "path": "sample_images/cloud_identification_demo_1.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81a9a4859c314fca18a27f396fcf7c39b9f3258b",
+      "size": 421065,
+      "url": "https://api.github.com/repos/yuhao-nie/Stanford-solar-forecasting-dataset/git/blobs/81a9a4859c314fca18a27f396fcf7c39b9f3258b"
+    },
+    {
+      "path": "sample_images/cloud_identification_demo_2.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56c0229a27535a09ac681917691ca6de9919d470",
+      "size": 440864,
+      "url": "https://api.github.com/repos/yuhao-nie/Stanford-solar-forecasting-dataset/git/blobs/56c0229a27535a09ac681917691ca6de9919d470"
+    },
+    {
+      "path": "sample_images/cloud_identification_demo_6.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77a25684c73b234c97238945d1940d3d17df9517",
+      "size": 389398,
+      "url": "https://api.github.com/repos/yuhao-nie/Stanford-solar-forecasting-dataset/git/blobs/77a25684c73b234c97238945d1940d3d17df9517"
+    },
+    {
+      "path": "sample_images/cloudy_day_demo.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f6fa25849887512b389d18b93c3b5bb21adb7a4",
+      "size": 518044,
+      "url": "https://api.github.com/repos/yuhao-nie/Stanford-solar-forecasting-dataset/git/blobs/8f6fa25849887512b389d18b93c3b5bb21adb7a4"
+    },
+    {
+      "path": "sample_images/cloudy_day_demo_1.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "285d0979dc215d1abd6004132321fc9bfcd85689",
+      "size": 435822,
+      "url": "https://api.github.com/repos/yuhao-nie/Stanford-solar-forecasting-dataset/git/blobs/285d0979dc215d1abd6004132321fc9bfcd85689"
+    },
+    {
+      "path": "sample_images/cloudy_day_demo_10.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c132070a531444e1112f9de237c679fc4926cba5",
+      "size": 400359,
+      "url": "https://api.github.com/repos/yuhao-nie/Stanford-solar-forecasting-dataset/git/blobs/c132070a531444e1112f9de237c679fc4926cba5"
+    },
+    {
+      "path": "sample_images/cloudy_day_demo_2.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a489e2b76affc772a75d922b20fbd49e7cfa007",
+      "size": 451984,
+      "url": "https://api.github.com/repos/yuhao-nie/Stanford-solar-forecasting-dataset/git/blobs/0a489e2b76affc772a75d922b20fbd49e7cfa007"
+    },
+    {
+      "path": "sample_images/cloudy_day_demo_3.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8c7010099735795a3c5595c442613c53895ddb5",
+      "size": 331419,
+      "url": "https://api.github.com/repos/yuhao-nie/Stanford-solar-forecasting-dataset/git/blobs/a8c7010099735795a3c5595c442613c53895ddb5"
+    },
+    {
+      "path": "sample_images/cloudy_day_demo_4.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fc72922281c3c8d3f038c70bf5c4e034518fe2c",
+      "size": 271478,
+      "url": "https://api.github.com/repos/yuhao-nie/Stanford-solar-forecasting-dataset/git/blobs/9fc72922281c3c8d3f038c70bf5c4e034518fe2c"
+    },
+    {
+      "path": "sample_images/cloudy_day_demo_5.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8525a99c3d96362dcc1d73d70c12768139cfabd5",
+      "size": 437010,
+      "url": "https://api.github.com/repos/yuhao-nie/Stanford-solar-forecasting-dataset/git/blobs/8525a99c3d96362dcc1d73d70c12768139cfabd5"
+    },
+    {
+      "path": "sample_images/cloudy_day_demo_6.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b198f704804079151ece1822685becddc5cf18b1",
+      "size": 397738,
+      "url": "https://api.github.com/repos/yuhao-nie/Stanford-solar-forecasting-dataset/git/blobs/b198f704804079151ece1822685becddc5cf18b1"
+    },
+    {
+      "path": "sample_images/cloudy_day_demo_7.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "335e85c60f0441ecc46dba9c7a2741191c6585c1",
+      "size": 388264,
+      "url": "https://api.github.com/repos/yuhao-nie/Stanford-solar-forecasting-dataset/git/blobs/335e85c60f0441ecc46dba9c7a2741191c6585c1"
+    },
+    {
+      "path": "sample_images/combined_pv_distribution_test_set_PV_output_profile.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e83f648ead9150f2760643cbb9f321128951b1e7",
+      "size": 71066,
+      "url": "https://api.github.com/repos/yuhao-nie/Stanford-solar-forecasting-dataset/git/blobs/e83f648ead9150f2760643cbb9f321128951b1e7"
+    },
+    {
+      "path": "sample_images/sky_camera_and_panel_photos.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05f14a5d19573e002dd2bddad778237eaf6d65cc",
+      "size": 559803,
+      "url": "https://api.github.com/repos/yuhao-nie/Stanford-solar-forecasting-dataset/git/blobs/05f14a5d19573e002dd2bddad778237eaf6d65cc"
+    },
+    {
+      "path": "sample_images/sky_camera_and_panel_photos_update.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7126a94641f2c4b3252720306599ba40486acc67",
+      "size": 2849312,
+      "url": "https://api.github.com/repos/yuhao-nie/Stanford-solar-forecasting-dataset/git/blobs/7126a94641f2c4b3252720306599ba40486acc67"
+    },
+    {
+      "path": "sample_images/sun_identification_demo_1.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6433182dd0083fca1840bb38c62616cdea8f1edb",
+      "size": 528712,
+      "url": "https://api.github.com/repos/yuhao-nie/Stanford-solar-forecasting-dataset/git/blobs/6433182dd0083fca1840bb38c62616cdea8f1edb"
+    },
+    {
+      "path": "sample_images/sun_identification_demo_4.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10c6f20c8397f3229a3fe92ad2d272ab79a681cc",
+      "size": 475068,
+      "url": "https://api.github.com/repos/yuhao-nie/Stanford-solar-forecasting-dataset/git/blobs/10c6f20c8397f3229a3fe92ad2d272ab79a681cc"
+    },
+    {
+      "path": "sample_images/sun_identification_demo_6.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6df2e6528b802f920f5e882c7d6c89b6759c8ae5",
+      "size": 492550,
+      "url": "https://api.github.com/repos/yuhao-nie/Stanford-solar-forecasting-dataset/git/blobs/6df2e6528b802f920f5e882c7d6c89b6759c8ae5"
+    },
+    {
+      "path": "sample_images/sunny_day_demo.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1479cae4398ae9de39acc651cd5846a8d0639f23",
+      "size": 528528,
+      "url": "https://api.github.com/repos/yuhao-nie/Stanford-solar-forecasting-dataset/git/blobs/1479cae4398ae9de39acc651cd5846a8d0639f23"
+    },
+    {
+      "path": "sample_images/sunny_day_demo_1.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1479cae4398ae9de39acc651cd5846a8d0639f23",
+      "size": 528528,
+      "url": "https://api.github.com/repos/yuhao-nie/Stanford-solar-forecasting-dataset/git/blobs/1479cae4398ae9de39acc651cd5846a8d0639f23"
+    },
+    {
+      "path": "sample_images/sunny_day_demo_10.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3001f378f272c5d85587fb2df943d67a298021b1",
+      "size": 393219,
+      "url": "https://api.github.com/repos/yuhao-nie/Stanford-solar-forecasting-dataset/git/blobs/3001f378f272c5d85587fb2df943d67a298021b1"
+    },
+    {
+      "path": "sample_images/sunny_day_demo_2.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "198c04be3ac790303f650222d3b01fba39c5ed81",
+      "size": 503462,
+      "url": "https://api.github.com/repos/yuhao-nie/Stanford-solar-forecasting-dataset/git/blobs/198c04be3ac790303f650222d3b01fba39c5ed81"
+    },
+    {
+      "path": "sample_images/sunny_day_demo_3.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ab3c5006712ca13b95ddcbcfd92916adf274e31",
+      "size": 490019,
+      "url": "https://api.github.com/repos/yuhao-nie/Stanford-solar-forecasting-dataset/git/blobs/4ab3c5006712ca13b95ddcbcfd92916adf274e31"
+    },
+    {
+      "path": "sample_images/sunny_day_demo_4.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4502b55e516ed743bec5eaa308ef5715406f6801",
+      "size": 474934,
+      "url": "https://api.github.com/repos/yuhao-nie/Stanford-solar-forecasting-dataset/git/blobs/4502b55e516ed743bec5eaa308ef5715406f6801"
+    },
+    {
+      "path": "sample_images/sunny_day_demo_5.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a69978faabdff709708410ead4b86a229b9d83d8",
+      "size": 475321,
+      "url": "https://api.github.com/repos/yuhao-nie/Stanford-solar-forecasting-dataset/git/blobs/a69978faabdff709708410ead4b86a229b9d83d8"
+    },
+    {
+      "path": "sample_images/sunny_day_demo_6.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e60a8b0e433010e449109351195fbee5134a9ea7",
+      "size": 492781,
+      "url": "https://api.github.com/repos/yuhao-nie/Stanford-solar-forecasting-dataset/git/blobs/e60a8b0e433010e449109351195fbee5134a9ea7"
+    },
+    {
+      "path": "sample_images/sunny_day_demo_7.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9ae0573594336f207fb6d9cd5a017f1700aaaab",
+      "size": 484869,
+      "url": "https://api.github.com/repos/yuhao-nie/Stanford-solar-forecasting-dataset/git/blobs/d9ae0573594336f207fb6d9cd5a017f1700aaaab"
+    },
+    {
+      "path": "sample_images/sunset_forecast_cloudy_days.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb98799dd36028b5300fdcb9298e0603602df588",
+      "size": 10757273,
+      "url": "https://api.github.com/repos/yuhao-nie/Stanford-solar-forecasting-dataset/git/blobs/eb98799dd36028b5300fdcb9298e0603602df588"
+    },
+    {
+      "path": "sample_images/sunset_forecast_cloudy_days.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e11ff39ac12af387322ddf2f2c538d5b81a5cbf5",
+      "size": 2017722,
+      "url": "https://api.github.com/repos/yuhao-nie/Stanford-solar-forecasting-dataset/git/blobs/e11ff39ac12af387322ddf2f2c538d5b81a5cbf5"
+    },
+    {
+      "path": "sample_images/sunset_forecast_sunny_days.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8307e9611276b9f9754676631c4e807fbb6435df",
+      "size": 7810404,
+      "url": "https://api.github.com/repos/yuhao-nie/Stanford-solar-forecasting-dataset/git/blobs/8307e9611276b9f9754676631c4e807fbb6435df"
+    },
+    {
+      "path": "sample_images/sunset_forecast_sunny_days.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4150040a27d683e872d9153ee4d2017a343ccdf",
+      "size": 741902,
+      "url": "https://api.github.com/repos/yuhao-nie/Stanford-solar-forecasting-dataset/git/blobs/d4150040a27d683e872d9153ee4d2017a343ccdf"
+    },
+    {
+      "path": "sample_images/sunset_nowcast_cloudy_days.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50245af98067b3628d0f0b74be3b3d81772a7e79",
+      "size": 9898731,
+      "url": "https://api.github.com/repos/yuhao-nie/Stanford-solar-forecasting-dataset/git/blobs/50245af98067b3628d0f0b74be3b3d81772a7e79"
+    },
+    {
+      "path": "sample_images/sunset_nowcast_cloudy_days.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e45c64adcfdc22ad0f64825913fe05d4cadb6265",
+      "size": 1804393,
+      "url": "https://api.github.com/repos/yuhao-nie/Stanford-solar-forecasting-dataset/git/blobs/e45c64adcfdc22ad0f64825913fe05d4cadb6265"
+    },
+    {
+      "path": "sample_images/sunset_nowcast_sunny_days.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3fe87d412d40a56ad58dbe24e3889287dac1a76",
+      "size": 8719111,
+      "url": "https://api.github.com/repos/yuhao-nie/Stanford-solar-forecasting-dataset/git/blobs/c3fe87d412d40a56ad58dbe24e3889287dac1a76"
+    },
+    {
+      "path": "sample_images/sunset_nowcast_sunny_days.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "111ec1e8a2244d4e1732103f97bec341d91c92f5",
+      "size": 771994,
+      "url": "https://api.github.com/repos/yuhao-nie/Stanford-solar-forecasting-dataset/git/blobs/111ec1e8a2244d4e1732103f97bec341d91c92f5"
+    },
+    {
+      "path": "sample_images/sunset_nowcast_sunny_days_short.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a72446bac2410fc83f9345cdb31d59aa92681d24",
+      "size": 3637470,
+      "url": "https://api.github.com/repos/yuhao-nie/Stanford-solar-forecasting-dataset/git/blobs/a72446bac2410fc83f9345cdb31d59aa92681d24"
+    }
+  ],
+  "truncated": false
+}

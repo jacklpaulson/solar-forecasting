@@ -1,0 +1,1040 @@
+{
+  "_id": "65fae13387d1c912d9d5ce59",
+  "id": "solarbench/SKIPPD",
+  "author": "solarbench",
+  "sha": "27d0e905ea2112979da6a03624b28c68b6e58aba",
+  "lastModified": "2026-10-08T11:32:17.000Z",
+  "private": false,
+  "gated": false,
+  "disabled": false,
+  "tags": [
+    "license:cc-by-4.0",
+    "size_categories:1M<n<10M",
+    "format:parquet",
+    "modality:image",
+    "modality:tabular",
+    "library:datasets",
+    "library:dask",
+    "library:polars",
+    "library:mlcroissant",
+    "region:us"
+  ],
+  "description": "\n\t\n\t\t\n\t\n\t\n\t\tCitation\n\t\n\nIf you find SKIPP'D useful to your research, please cite:\nNie, Y., Li, X., Scott, A., Sun, Y., Venugopal, V., & Brandt, A. (2023). SKIPP\u2019D: A SKy Images and Photovoltaic Power Generation Dataset for short-term solar forecasting. Solar Energy, 255, 171-179.\n\nor\n@article{nie2023skipp,\n  title={SKIPP\u2019D: A SKy Images and Photovoltaic Power Generation Dataset for short-term solar forecasting},\n  author={Nie, Yuhao and Li, Xiatong and Scott, Andea and Sun, Yuchi and Venugopal\u2026 See the full description on the dataset page: https://huggingface.co/datasets/solarbench/SKIPPD.",
+  "downloads": 2105,
+  "likes": 17,
+  "cardData": {
+    "license": "cc-by-4.0",
+    "dataset_info": [
+      {
+        "config_name": "ERA5",
+        "features": [
+          {
+            "name": "tp_nn1",
+            "dtype": "float32"
+          },
+          {
+            "name": "tsrc_nn1",
+            "dtype": "float32"
+          },
+          {
+            "name": "tsr_nn1",
+            "dtype": "float32"
+          },
+          {
+            "name": "ssrd_nn1",
+            "dtype": "float32"
+          },
+          {
+            "name": "ssr_nn1",
+            "dtype": "float32"
+          },
+          {
+            "name": "u10_nn1",
+            "dtype": "float32"
+          },
+          {
+            "name": "v10_nn1",
+            "dtype": "float32"
+          },
+          {
+            "name": "t2m_nn1",
+            "dtype": "float32"
+          },
+          {
+            "name": "d2m_nn1",
+            "dtype": "float32"
+          },
+          {
+            "name": "tciw_nn1",
+            "dtype": "float32"
+          },
+          {
+            "name": "tclw_nn1",
+            "dtype": "float32"
+          },
+          {
+            "name": "hcc_nn1",
+            "dtype": "float32"
+          },
+          {
+            "name": "mcc_nn1",
+            "dtype": "float32"
+          },
+          {
+            "name": "lcc_nn1",
+            "dtype": "float32"
+          },
+          {
+            "name": "tcc_nn1",
+            "dtype": "float32"
+          },
+          {
+            "name": "cdir_nn1",
+            "dtype": "float32"
+          },
+          {
+            "name": "fdir_nn1",
+            "dtype": "float32"
+          },
+          {
+            "name": "ssrc_nn1",
+            "dtype": "float32"
+          },
+          {
+            "name": "ssrdc_nn1",
+            "dtype": "float32"
+          },
+          {
+            "name": "tisr_nn1",
+            "dtype": "float32"
+          },
+          {
+            "name": "v100_nn1",
+            "dtype": "float32"
+          },
+          {
+            "name": "u100_nn1",
+            "dtype": "float32"
+          },
+          {
+            "name": "fal_nn1",
+            "dtype": "float32"
+          },
+          {
+            "name": "fg10_nn1",
+            "dtype": "float32"
+          },
+          {
+            "name": "i10fg_nn1",
+            "dtype": "float32"
+          },
+          {
+            "name": "cbh_nn1",
+            "dtype": "float32"
+          },
+          {
+            "name": "tp_nn4[0]",
+            "dtype": "float32"
+          },
+          {
+            "name": "tsrc_nn4[0]",
+            "dtype": "float32"
+          },
+          {
+            "name": "tsr_nn4[0]",
+            "dtype": "float32"
+          },
+          {
+            "name": "ssrd_nn4[0]",
+            "dtype": "float32"
+          },
+          {
+            "name": "ssr_nn4[0]",
+            "dtype": "float32"
+          },
+          {
+            "name": "u10_nn4[0]",
+            "dtype": "float32"
+          },
+          {
+            "name": "v10_nn4[0]",
+            "dtype": "float32"
+          },
+          {
+            "name": "t2m_nn4[0]",
+            "dtype": "float32"
+          },
+          {
+            "name": "d2m_nn4[0]",
+            "dtype": "float32"
+          },
+          {
+            "name": "tciw_nn4[0]",
+            "dtype": "float32"
+          },
+          {
+            "name": "tclw_nn4[0]",
+            "dtype": "float32"
+          },
+          {
+            "name": "hcc_nn4[0]",
+            "dtype": "float32"
+          },
+          {
+            "name": "mcc_nn4[0]",
+            "dtype": "float32"
+          },
+          {
+            "name": "lcc_nn4[0]",
+            "dtype": "float32"
+          },
+          {
+            "name": "tcc_nn4[0]",
+            "dtype": "float32"
+          },
+          {
+            "name": "cdir_nn4[0]",
+            "dtype": "float32"
+          },
+          {
+            "name": "fdir_nn4[0]",
+            "dtype": "float32"
+          },
+          {
+            "name": "ssrc_nn4[0]",
+            "dtype": "float32"
+          },
+          {
+            "name": "ssrdc_nn4[0]",
+            "dtype": "float32"
+          },
+          {
+            "name": "tisr_nn4[0]",
+            "dtype": "float32"
+          },
+          {
+            "name": "v100_nn4[0]",
+            "dtype": "float32"
+          },
+          {
+            "name": "u100_nn4[0]",
+            "dtype": "float32"
+          },
+          {
+            "name": "fal_nn4[0]",
+            "dtype": "float32"
+          },
+          {
+            "name": "fg10_nn4[0]",
+            "dtype": "float32"
+          },
+          {
+            "name": "i10fg_nn4[0]",
+            "dtype": "float32"
+          },
+          {
+            "name": "cbh_nn4[0]",
+            "dtype": "float32"
+          },
+          {
+            "name": "tp_nn4[1]",
+            "dtype": "float32"
+          },
+          {
+            "name": "tsrc_nn4[1]",
+            "dtype": "float32"
+          },
+          {
+            "name": "tsr_nn4[1]",
+            "dtype": "float32"
+          },
+          {
+            "name": "ssrd_nn4[1]",
+            "dtype": "float32"
+          },
+          {
+            "name": "ssr_nn4[1]",
+            "dtype": "float32"
+          },
+          {
+            "name": "u10_nn4[1]",
+            "dtype": "float32"
+          },
+          {
+            "name": "v10_nn4[1]",
+            "dtype": "float32"
+          },
+          {
+            "name": "t2m_nn4[1]",
+            "dtype": "float32"
+          },
+          {
+            "name": "d2m_nn4[1]",
+            "dtype": "float32"
+          },
+          {
+            "name": "tciw_nn4[1]",
+            "dtype": "float32"
+          },
+          {
+            "name": "tclw_nn4[1]",
+            "dtype": "float32"
+          },
+          {
+            "name": "hcc_nn4[1]",
+            "dtype": "float32"
+          },
+          {
+            "name": "mcc_nn4[1]",
+            "dtype": "float32"
+          },
+          {
+            "name": "lcc_nn4[1]",
+            "dtype": "float32"
+          },
+          {
+            "name": "tcc_nn4[1]",
+            "dtype": "float32"
+          },
+          {
+            "name": "cdir_nn4[1]",
+            "dtype": "float32"
+          },
+          {
+            "name": "fdir_nn4[1]",
+            "dtype": "float32"
+          },
+          {
+            "name": "ssrc_nn4[1]",
+            "dtype": "float32"
+          },
+          {
+            "name": "ssrdc_nn4[1]",
+            "dtype": "float32"
+          },
+          {
+            "name": "tisr_nn4[1]",
+            "dtype": "float32"
+          },
+          {
+            "name": "v100_nn4[1]",
+            "dtype": "float32"
+          },
+          {
+            "name": "u100_nn4[1]",
+            "dtype": "float32"
+          },
+          {
+            "name": "fal_nn4[1]",
+            "dtype": "float32"
+          },
+          {
+            "name": "fg10_nn4[1]",
+            "dtype": "float32"
+          },
+          {
+            "name": "i10fg_nn4[1]",
+            "dtype": "float32"
+          },
+          {
+            "name": "cbh_nn4[1]",
+            "dtype": "float32"
+          },
+          {
+            "name": "tp_nn4[2]",
+            "dtype": "float32"
+          },
+          {
+            "name": "tsrc_nn4[2]",
+            "dtype": "float32"
+          },
+          {
+            "name": "tsr_nn4[2]",
+            "dtype": "float32"
+          },
+          {
+            "name": "ssrd_nn4[2]",
+            "dtype": "float32"
+          },
+          {
+            "name": "ssr_nn4[2]",
+            "dtype": "float32"
+          },
+          {
+            "name": "u10_nn4[2]",
+            "dtype": "float32"
+          },
+          {
+            "name": "v10_nn4[2]",
+            "dtype": "float32"
+          },
+          {
+            "name": "t2m_nn4[2]",
+            "dtype": "float32"
+          },
+          {
+            "name": "d2m_nn4[2]",
+            "dtype": "float32"
+          },
+          {
+            "name": "tciw_nn4[2]",
+            "dtype": "float32"
+          },
+          {
+            "name": "tclw_nn4[2]",
+            "dtype": "float32"
+          },
+          {
+            "name": "hcc_nn4[2]",
+            "dtype": "float32"
+          },
+          {
+            "name": "mcc_nn4[2]",
+            "dtype": "float32"
+          },
+          {
+            "name": "lcc_nn4[2]",
+            "dtype": "float32"
+          },
+          {
+            "name": "tcc_nn4[2]",
+            "dtype": "float32"
+          },
+          {
+            "name": "cdir_nn4[2]",
+            "dtype": "float32"
+          },
+          {
+            "name": "fdir_nn4[2]",
+            "dtype": "float32"
+          },
+          {
+            "name": "ssrc_nn4[2]",
+            "dtype": "float32"
+          },
+          {
+            "name": "ssrdc_nn4[2]",
+            "dtype": "float32"
+          },
+          {
+            "name": "tisr_nn4[2]",
+            "dtype": "float32"
+          },
+          {
+            "name": "v100_nn4[2]",
+            "dtype": "float32"
+          },
+          {
+            "name": "u100_nn4[2]",
+            "dtype": "float32"
+          },
+          {
+            "name": "fal_nn4[2]",
+            "dtype": "float32"
+          },
+          {
+            "name": "fg10_nn4[2]",
+            "dtype": "float32"
+          },
+          {
+            "name": "i10fg_nn4[2]",
+            "dtype": "float32"
+          },
+          {
+            "name": "cbh_nn4[2]",
+            "dtype": "float32"
+          },
+          {
+            "name": "tp_nn4[3]",
+            "dtype": "float32"
+          },
+          {
+            "name": "tsrc_nn4[3]",
+            "dtype": "float32"
+          },
+          {
+            "name": "tsr_nn4[3]",
+            "dtype": "float32"
+          },
+          {
+            "name": "ssrd_nn4[3]",
+            "dtype": "float32"
+          },
+          {
+            "name": "ssr_nn4[3]",
+            "dtype": "float32"
+          },
+          {
+            "name": "u10_nn4[3]",
+            "dtype": "float32"
+          },
+          {
+            "name": "v10_nn4[3]",
+            "dtype": "float32"
+          },
+          {
+            "name": "t2m_nn4[3]",
+            "dtype": "float32"
+          },
+          {
+            "name": "d2m_nn4[3]",
+            "dtype": "float32"
+          },
+          {
+            "name": "tciw_nn4[3]",
+            "dtype": "float32"
+          },
+          {
+            "name": "tclw_nn4[3]",
+            "dtype": "float32"
+          },
+          {
+            "name": "hcc_nn4[3]",
+            "dtype": "float32"
+          },
+          {
+            "name": "mcc_nn4[3]",
+            "dtype": "float32"
+          },
+          {
+            "name": "lcc_nn4[3]",
+            "dtype": "float32"
+          },
+          {
+            "name": "tcc_nn4[3]",
+            "dtype": "float32"
+          },
+          {
+            "name": "cdir_nn4[3]",
+            "dtype": "float32"
+          },
+          {
+            "name": "fdir_nn4[3]",
+            "dtype": "float32"
+          },
+          {
+            "name": "ssrc_nn4[3]",
+            "dtype": "float32"
+          },
+          {
+            "name": "ssrdc_nn4[3]",
+            "dtype": "float32"
+          },
+          {
+            "name": "tisr_nn4[3]",
+            "dtype": "float32"
+          },
+          {
+            "name": "v100_nn4[3]",
+            "dtype": "float32"
+          },
+          {
+            "name": "u100_nn4[3]",
+            "dtype": "float32"
+          },
+          {
+            "name": "fal_nn4[3]",
+            "dtype": "float32"
+          },
+          {
+            "name": "fg10_nn4[3]",
+            "dtype": "float32"
+          },
+          {
+            "name": "i10fg_nn4[3]",
+            "dtype": "float32"
+          },
+          {
+            "name": "cbh_nn4[3]",
+            "dtype": "float32"
+          },
+          {
+            "name": "valid_time",
+            "dtype": "timestamp[ns, tz=US/Pacific]"
+          }
+        ],
+        "splits": [
+          {
+            "name": "train",
+            "num_bytes": 2939376,
+            "num_examples": 5567
+          },
+          {
+            "name": "test",
+            "num_bytes": 97152,
+            "num_examples": 184
+          }
+        ],
+        "download_size": 2981934,
+        "dataset_size": 3036528
+      },
+      {
+        "config_name": "GFS",
+        "features": [
+          {
+            "name": "downward_shortwave_radiation_flux_cubic",
+            "dtype": "float64"
+          },
+          {
+            "name": "precipitable_water_entire_atmosphere_cubic",
+            "dtype": "float64"
+          },
+          {
+            "name": "relative_humidity_2m_above_ground_cubic",
+            "dtype": "float64"
+          },
+          {
+            "name": "specific_humidity_2m_above_ground_cubic",
+            "dtype": "float64"
+          },
+          {
+            "name": "temperature_2m_above_ground_cubic",
+            "dtype": "float64"
+          },
+          {
+            "name": "total_cloud_cover_entire_atmosphere_cubic",
+            "dtype": "float64"
+          },
+          {
+            "name": "total_precipitation_surface_cubic",
+            "dtype": "float64"
+          },
+          {
+            "name": "u_component_of_wind_10m_above_ground_cubic",
+            "dtype": "float64"
+          },
+          {
+            "name": "v_component_of_wind_10m_above_ground_cubic",
+            "dtype": "float64"
+          },
+          {
+            "name": "downward_shortwave_radiation_flux_linear",
+            "dtype": "float64"
+          },
+          {
+            "name": "precipitable_water_entire_atmosphere_linear",
+            "dtype": "float64"
+          },
+          {
+            "name": "relative_humidity_2m_above_ground_linear",
+            "dtype": "float64"
+          },
+          {
+            "name": "specific_humidity_2m_above_ground_linear",
+            "dtype": "float64"
+          },
+          {
+            "name": "temperature_2m_above_ground_linear",
+            "dtype": "float64"
+          },
+          {
+            "name": "total_cloud_cover_entire_atmosphere_linear",
+            "dtype": "float64"
+          },
+          {
+            "name": "total_precipitation_surface_linear",
+            "dtype": "float64"
+          },
+          {
+            "name": "u_component_of_wind_10m_above_ground_linear",
+            "dtype": "float64"
+          },
+          {
+            "name": "v_component_of_wind_10m_above_ground_linear",
+            "dtype": "float64"
+          },
+          {
+            "name": "longitude",
+            "dtype": "float64"
+          },
+          {
+            "name": "latitude",
+            "dtype": "float64"
+          },
+          {
+            "name": "downward_shortwave_radiation_flux_nn1",
+            "dtype": "int64"
+          },
+          {
+            "name": "precipitable_water_entire_atmosphere_nn1",
+            "dtype": "float64"
+          },
+          {
+            "name": "relative_humidity_2m_above_ground_nn1",
+            "dtype": "float64"
+          },
+          {
+            "name": "specific_humidity_2m_above_ground_nn1",
+            "dtype": "float64"
+          },
+          {
+            "name": "temperature_2m_above_ground_nn1",
+            "dtype": "float64"
+          },
+          {
+            "name": "total_cloud_cover_entire_atmosphere_nn1",
+            "dtype": "int64"
+          },
+          {
+            "name": "total_precipitation_surface_nn1",
+            "dtype": "float64"
+          },
+          {
+            "name": "u_component_of_wind_10m_above_ground_nn1",
+            "dtype": "float64"
+          },
+          {
+            "name": "v_component_of_wind_10m_above_ground_nn1",
+            "dtype": "float64"
+          },
+          {
+            "name": "downward_shortwave_radiation_flux_nn4[0]",
+            "dtype": "int64"
+          },
+          {
+            "name": "downward_shortwave_radiation_flux_nn4[1]",
+            "dtype": "int64"
+          },
+          {
+            "name": "downward_shortwave_radiation_flux_nn4[2]",
+            "dtype": "int64"
+          },
+          {
+            "name": "downward_shortwave_radiation_flux_nn4[3]",
+            "dtype": "int64"
+          },
+          {
+            "name": "precipitable_water_entire_atmosphere_nn4[0]",
+            "dtype": "float64"
+          },
+          {
+            "name": "precipitable_water_entire_atmosphere_nn4[1]",
+            "dtype": "float64"
+          },
+          {
+            "name": "precipitable_water_entire_atmosphere_nn4[2]",
+            "dtype": "float64"
+          },
+          {
+            "name": "precipitable_water_entire_atmosphere_nn4[3]",
+            "dtype": "float64"
+          },
+          {
+            "name": "relative_humidity_2m_above_ground_nn4[0]",
+            "dtype": "float64"
+          },
+          {
+            "name": "relative_humidity_2m_above_ground_nn4[1]",
+            "dtype": "float64"
+          },
+          {
+            "name": "relative_humidity_2m_above_ground_nn4[2]",
+            "dtype": "float64"
+          },
+          {
+            "name": "relative_humidity_2m_above_ground_nn4[3]",
+            "dtype": "float64"
+          },
+          {
+            "name": "specific_humidity_2m_above_ground_nn4[0]",
+            "dtype": "float64"
+          },
+          {
+            "name": "specific_humidity_2m_above_ground_nn4[1]",
+            "dtype": "float64"
+          },
+          {
+            "name": "specific_humidity_2m_above_ground_nn4[2]",
+            "dtype": "float64"
+          },
+          {
+            "name": "specific_humidity_2m_above_ground_nn4[3]",
+            "dtype": "float64"
+          },
+          {
+            "name": "temperature_2m_above_ground_nn4[0]",
+            "dtype": "float64"
+          },
+          {
+            "name": "temperature_2m_above_ground_nn4[1]",
+            "dtype": "float64"
+          },
+          {
+            "name": "temperature_2m_above_ground_nn4[2]",
+            "dtype": "float64"
+          },
+          {
+            "name": "temperature_2m_above_ground_nn4[3]",
+            "dtype": "float64"
+          },
+          {
+            "name": "total_cloud_cover_entire_atmosphere_nn4[0]",
+            "dtype": "int64"
+          },
+          {
+            "name": "total_cloud_cover_entire_atmosphere_nn4[1]",
+            "dtype": "int64"
+          },
+          {
+            "name": "total_cloud_cover_entire_atmosphere_nn4[2]",
+            "dtype": "int64"
+          },
+          {
+            "name": "total_cloud_cover_entire_atmosphere_nn4[3]",
+            "dtype": "int64"
+          },
+          {
+            "name": "total_precipitation_surface_nn4[0]",
+            "dtype": "float64"
+          },
+          {
+            "name": "total_precipitation_surface_nn4[1]",
+            "dtype": "float64"
+          },
+          {
+            "name": "total_precipitation_surface_nn4[2]",
+            "dtype": "float64"
+          },
+          {
+            "name": "total_precipitation_surface_nn4[3]",
+            "dtype": "float64"
+          },
+          {
+            "name": "u_component_of_wind_10m_above_ground_nn4[0]",
+            "dtype": "float64"
+          },
+          {
+            "name": "u_component_of_wind_10m_above_ground_nn4[1]",
+            "dtype": "float64"
+          },
+          {
+            "name": "u_component_of_wind_10m_above_ground_nn4[2]",
+            "dtype": "float64"
+          },
+          {
+            "name": "u_component_of_wind_10m_above_ground_nn4[3]",
+            "dtype": "float64"
+          },
+          {
+            "name": "v_component_of_wind_10m_above_ground_nn4[0]",
+            "dtype": "float64"
+          },
+          {
+            "name": "v_component_of_wind_10m_above_ground_nn4[1]",
+            "dtype": "float64"
+          },
+          {
+            "name": "v_component_of_wind_10m_above_ground_nn4[2]",
+            "dtype": "float64"
+          },
+          {
+            "name": "v_component_of_wind_10m_above_ground_nn4[3]",
+            "dtype": "float64"
+          },
+          {
+            "name": "time_forecast",
+            "sequence": "timestamp[us, tz=US/Pacific]"
+          }
+        ],
+        "splits": [
+          {
+            "name": "train",
+            "num_bytes": 38514420,
+            "num_examples": 71323
+          },
+          {
+            "name": "test",
+            "num_bytes": 1555200,
+            "num_examples": 2880
+          }
+        ],
+        "download_size": 23526127,
+        "dataset_size": 40069620
+      },
+      {
+        "config_name": "default",
+        "features": [
+          {
+            "name": "image",
+            "dtype": "image"
+          },
+          {
+            "name": "time",
+            "dtype": "timestamp[s, tz=US/Pacific]"
+          },
+          {
+            "name": "pv",
+            "dtype": "float32"
+          }
+        ],
+        "splits": [
+          {
+            "name": "train",
+            "num_bytes": 2228797291.64,
+            "num_examples": 349372
+          },
+          {
+            "name": "test",
+            "num_bytes": 90193889.61,
+            "num_examples": 14003
+          }
+        ],
+        "download_size": 2321743541,
+        "dataset_size": 2318991181.25
+      },
+      {
+        "config_name": "labels",
+        "features": [
+          {
+            "name": "time",
+            "dtype": "timestamp[s, tz=US/Pacific]"
+          },
+          {
+            "name": "pv",
+            "dtype": "float32"
+          }
+        ],
+        "splits": [
+          {
+            "name": "train",
+            "num_bytes": 4192464,
+            "num_examples": 349372
+          },
+          {
+            "name": "test",
+            "num_bytes": 168036,
+            "num_examples": 14003
+          }
+        ],
+        "download_size": 4660741,
+        "dataset_size": 4360500
+      }
+    ],
+    "configs": [
+      {
+        "config_name": "ERA5",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "ERA5/train-*"
+          },
+          {
+            "split": "test",
+            "path": "ERA5/test-*"
+          }
+        ]
+      },
+      {
+        "config_name": "GFS",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "GFS/train-*"
+          },
+          {
+            "split": "test",
+            "path": "GFS/test-*"
+          }
+        ]
+      },
+      {
+        "config_name": "default",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "ground/train-*"
+          },
+          {
+            "split": "test",
+            "path": "ground/test-*"
+          }
+        ]
+      },
+      {
+        "config_name": "labels",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "ground_no_sky_img/train-*"
+          },
+          {
+            "split": "test",
+            "path": "ground_no_sky_img/test-*"
+          }
+        ]
+      },
+      {
+        "config_name": "ground",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "ground/train-*"
+          },
+          {
+            "split": "test",
+            "path": "ground/test-*"
+          }
+        ]
+      },
+      {
+        "config_name": "ground_no_sky_img",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "ground_no_sky_img/train-*"
+          },
+          {
+            "split": "test",
+            "path": "ground_no_sky_img/test-*"
+          }
+        ]
+      }
+    ]
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "ERA5/test-00000-of-00001.parquet"
+    },
+    {
+      "rfilename": "ERA5/train-00000-of-00001.parquet"
+    },
+    {
+      "rfilename": "GFS/test-00000-of-00001.parquet"
+    },
+    {
+      "rfilename": "GFS/train-00000-of-00001.parquet"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "ground/test-00000-of-00001.parquet"
+    },
+    {
+      "rfilename": "ground/train-00000-of-00005.parquet"
+    },
+    {
+      "rfilename": "ground/train-00001-of-00005.parquet"
+    },
+    {
+      "rfilename": "ground/train-00002-of-00005.parquet"
+    },
+    {
+      "rfilename": "ground/train-00003-of-00005.parquet"
+    },
+    {
+      "rfilename": "ground/train-00004-of-00005.parquet"
+    },
+    {
+      "rfilename": "ground_no_sky_img/test-00000-of-00001.parquet"
+    },
+    {
+      "rfilename": "ground_no_sky_img/train-00000-of-00001.parquet"
+    }
+  ],
+  "createdAt": "2024-03-20T13:14:27.000Z",
+  "usedStorage": 9372581917
+}

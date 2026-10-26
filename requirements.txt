@@ -1,0 +1,8 @@
+numpy>=1.26,<3
+pandas>=2.1,<4
+pyarrow>=15,<27
+Pillow>=10,<13
+
+# For later model experiments, install separately in Colab:
+# scikit-learn, xgboost, and either torch or tensorflow.
+# No deep-learning framework is needed to use or verify this data package.

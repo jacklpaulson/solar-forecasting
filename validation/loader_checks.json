@@ -1,0 +1,58 @@
+{
+  "status": "passed",
+  "source_rows_spot_checked": 144,
+  "all_pilot_index_and_label_mappings_match": true,
+  "full_and_pilot_batches_identical": true,
+  "batch_shape": [
+    16,
+    16,
+    64,
+    64,
+    3
+  ],
+  "batch_image_tensor_bytes": 12582912,
+  "baseline_feature_count": 404,
+  "temporal_image_summaries_independently_checked": true,
+  "pilot_batch_seconds": 0.0047,
+  "full_batch_seconds": 0.0462,
+  "timing_scope": "One local CPU data-loading batch only; not GPU training or general speed benchmark",
+  "optional_weather_file_checks": [
+    {
+      "file": "data/raw/solarbench/ERA5/test-00000-of-00001.parquet",
+      "rows": 184,
+      "columns": 131,
+      "null_cells": 0,
+      "readable": true
+    },
+    {
+      "file": "data/raw/solarbench/ERA5/train-00000-of-00001.parquet",
+      "rows": 5567,
+      "columns": 131,
+      "null_cells": 0,
+      "readable": true
+    },
+    {
+      "file": "data/raw/solarbench/GFS/test-00000-of-00001.parquet",
+      "rows": 2880,
+      "columns": 66,
+      "null_cells": 0,
+      "readable": true
+    },
+    {
+      "file": "data/raw/solarbench/GFS/train-00000-of-00001.parquet",
+      "rows": 71323,
+      "columns": 66,
+      "null_cells": 0,
+      "readable": true
+    }
+  ],
+  "notebook_code_cells_syntax_checked": 5,
+  "notebook_executed_in_colab": false,
+  "neural_training_tested": false,
+  "starter_nonvisual_code_cells_executed_locally": [
+    2,
+    4,
+    7,
+    9
+  ]
+}

@@ -1,0 +1,10 @@
+# Downloaded and generated datasets
+data/
+
+# Python and notebook caches
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# macOS files
+.DS_Store
